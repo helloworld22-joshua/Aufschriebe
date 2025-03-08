@@ -76,8 +76,8 @@ Tool zum Visualisieren: [The Incredible Proof Maschine](https://incredible.pm)
 
 Die einfachsten Beweise können ohne Aussagen aus einem Kalkül geführt werden:
 
-![Beweis Beispiel.png](./Anhang/Beweis Beispiel.png)
-![Beweis Beispiel IPM.png](./Anhang/Beweis Beispiel IPM.png)
+![Beweis Beispiel.png](./Anhang/Beweis%20Beispiel.png)
+![Beweis Beispiel IPM.png](./Anhang/Beweis%20Beispiel%20IPM.png)
 
 Hier ist die zu zeigende **Konklusion** (unten) direkt aus der gegebenen **Prämisse** (oben) belegbar und könnte lauten:
 	Beweis: Die Konklusion $A$ ergibt sich aus der Prämisse $A$.
@@ -85,32 +85,32 @@ Hier ist die zu zeigende **Konklusion** (unten) direkt aus der gegebenen **Präm
 ### Regeln
 #### Konjunktion
 ![Konjunktion.png](./Anhang/Konjunktion.png)
-![Konjunktion IPM.png](./Anhang/Konjunktion IPM.png)
+![Konjunktion IPM.png](./Anhang/Konjunktion%20IPM.png)
 
 **Konjunktion ist kommutativ**:
 
-![Konjunktion kommutativ.png](./Anhang/Konjunktion kommutativ.png)
+![Konjunktion kommutativ.png](./Anhang/Konjunktion%20kommutativ.png)
 
 #### Implikation / Modus Ponens
 ![Implikation.png](./Anhang/Implikation.png)
-![Implikation IPM.png](./Anhang/Implikation IPM.png)
+![Implikation IPM.png](./Anhang/Implikation%20IPM.png)
 
 **Implikation ist transitiv**:
-![Implikation transitiv.png](./Anhang/Implikation transitiv.png)
+![Implikation transitiv.png](./Anhang/Implikation%20transitiv.png)
 
 #### Disjunktion
 ![Disjunktion.png](./Anhang/Disjunktion.png)
-![Disjunktion IPM.png](./Anhang/Disjunktion IPM.png)
-![Disjunktion IPM 2.png](./Anhang/Disjunktion IPM 2.png)
+![Disjunktion IPM.png](./Anhang/Disjunktion%20IPM.png)
+![Disjunktion IPM 2.png](./Anhang/Disjunktion%20IPM%202.png)
 [Auch transitiv oder so?]
 
 #### Allquantor
 ![Allquantor.png](./Anhang/Allquantor.png)
-![Allquantor IPM.png](./Anhang/Allquantor IPM.png)
+![Allquantor IPM.png](./Anhang/Allquantor%20IPM.png)
 
 #### Existenzquantor
 ![Existenzquantor.png](./Anhang/Existenzquantor.png)
-![Existenzquantor IPM.png](./Anhang/Existenzquantor IPM.png)
+![Existenzquantor IPM.png](./Anhang/Existenzquantor%20IPM.png)
 
 ### Schritte darstellen
 Beispiel anhand Konjuktion:
@@ -123,7 +123,7 @@ Beispiel anhand Konjuktion:
 ### Beispiel
 Auf Basis dieser Regeln können Assoziativität und Kommutativität der Disjunktion bewiesen werden, wie auch die Distributivität der Konjunktion:
 
-![Satz 1.23.png](./Anhang/Satz 1.23.png)
+![Satz 1.23.png](./Anhang/Satz%201.23.png)
 
 Beweis: Aus der Prämisse $A ∧ (B ∨ C)$ folgt nach $KL$ und $KR$, dass $A$ und $B ∨ C$ erfüllt sind.
 
@@ -134,29 +134,29 @@ Aus den Aussagen $A$ und $B ∨ C$ ist nun mit Regel D die Konklusion $(A ∧ B)
 Da mit der Aussage $B ∨ C$ und in beiden Fällen $B$ und $C$ die Aussage $(A ∧ B) ∨ (A ∧ C)$ erfüllt ist, gilt diese nach Regel $D$ allgemein und die Konklusion ist bewiesen.
 
 #### Tabellarischer Beweis
-![Tabellarischer Beweis.png](./Anhang/Tabellarischer Beweis.png)
+![Tabellarischer Beweis.png](./Anhang/Tabellarischer%20Beweis.png)
 
 ### Schlussprinzipien
 #### Ex falso quodlibet
 Alles kann aus einer falschen Aussage gefolgert werden.
 
-![ex falso quodlibet.png](./Anhang/ex falso quodlibet.png)
+![ex falso quodlibet.png](./Anhang/ex%20falso%20quodlibet.png)
 
 #### Modus Tollens
 Durch Aufheben aufhebende Schlussweise.
 
-![Modus Tollens.png](./Anhang/Modus Tollens.png)
+![Modus Tollens.png](./Anhang/Modus%20Tollens.png)
 [Es gibt auch einen Modus ponens]
 
 #### Tertium Non Datur
 Diese Regel ist immer wahr und besitzt daher keine Prämissen. Somit kann man beliebige Aussagen „erzeugen“, wodurch die konstruktive Logik verlassen wird.
 
-![Tertium Non Datur.png](./Anhang/Tertium Non Datur.png)
+![Tertium Non Datur.png](./Anhang/Tertium%20Non%20Datur.png)
 
 #### Indirekter Beweis
 Aus $¬B→¬A$ folgt $A→B$, es gilt also:
 
-![Indirekter Beweis.png](./Anhang/Indirekter Beweis.png)
+![Indirekter Beweis.png](./Anhang/Indirekter%20Beweis.png)
 
 ## Prädikatenlogik
 Hier zunächst nur vorausgesetzt, dass der logische Ausdruck für jeden Parameter x oder Parameterliste $x_1, ..., x_n$ eindeutig ausgewertet werden
@@ -232,7 +232,7 @@ $$
 ### Beispiel
 $L(x, y) : x\text{ liebt }y$
 
-![Quantoren Prädikat Beispiel.png](./Anhang/Quantoren Prädikat Beispiel.png)
+![Quantoren Prädikat Beispiel.png](./Anhang/Quantoren%20Prädikat%20Beispiel.png)
 
 - Aus Aussage (3) „Alle lieben eine(n)“ folgt Aussage (2) „Jede(r) liebt jemanden“, aber die Gegenrichtung wird nicht allgemein gelten.
 - Existenzaussagen bedeuten nicht, dass es jeweils nur genau einen Fall gäbe: Alle Allquantoren können durch schwächere [?] Existenzquantoren ersetzt werden. Die Rückrichtung ist jedoch nicht allgemein gültig.
@@ -370,7 +370,7 @@ Fehlt viel aus Permutationen
 **Kartesisches Produkt (Menge aller einzigartigen, geordneten Paare)**: $×$
 **Äquivalenzrelation**: $∼$ oder $\sim_R$ (dieses Symbol ersetzt $R$ in Äquivalenzrelationen)
 **Vorrangrelation / vorgeordnete Relation**: $\preceq$ (diese Symbole ersetzten $R$ in Ordnungen)[Definieren!]
-↦, 
+↦,
 $M = \bigcup_{i=1}^{n} M_i$
 | bei {x| x… }
 ≡
@@ -423,7 +423,7 @@ Die Relation $R$ ist…
 • transitiv, da z.B. mit $(a,b) ∈ R$, $(b,c) ∈ R$ auch $(a,c) ∈ R$ folgt,
 • linear, da für alle $x ∈ M$ und $y ∈ M$ entweder $(x,y) ∈ R$ oder $(y,x) ∈ R$ gilt.
 
-![Relation Beispiel.png](./Anhang/Relation Beispiel.png)
+![Relation Beispiel.png](./Anhang/Relation%20Beispiel.png)
 
 ### Graphen
 | Merkmal                              | Gerichtete Graphen                                                            | Ungerichtete Graphen                                         |
@@ -433,7 +433,7 @@ Die Relation $R$ ist…
 | **Grad (Anzahl verbundener Kanten)** | Knoten haben Eingangs- und Ausgangsgrade                                      | Jede verbunde Kante ist ein Grad                             |
 | **Pfad**                             | Pfade folgen den Richtungen der Kanten                                        | Pfade sind in beide Richtungen möglich                       |
 
-![Gerichtete und ungerichtete Graphen.png](./Anhang/Gerichtete und ungerichtete Graphen.png)
+![Gerichtete und ungerichtete Graphen.png](./Anhang/Gerichtete%20und%20ungerichtete%20Graphen.png)
 
 ### Äquivalenzrelationen
 #### Beispiel 1
@@ -451,7 +451,7 @@ Die Relation $R$ ist…
 #### Beispiel 2
 Sei $N$ ein ungerichteter Graph und sei darin $M$ eine Menge von Knoten und $K$ die Relation der Kanten zwischen den Punkten in einem Netzwerk, also mit $x K y$ gilt immer auch $y K x$.
 
-![Netzwerk Äquivalenzrelation.png](./Anhang/Netzwerk Äquivalenzrelation.png)
+![Netzwerk Äquivalenzrelation.png](./Anhang/Netzwerk%20Äquivalenzrelation.png)
 *Graph zu Beispiel (Reflexive Kanten werden oft nicht eingezeichnet)*
 
 Dann ist die Relation $K$ im Allgemeinen keine Äquivalenzrelation, aber die abgeleitete Relation $xRy$ für $x$ ist mit $y$ über Kanten verbunden, ist eine Äquivalenzrelation:
@@ -593,7 +593,7 @@ Eine Abbildung $f : A→B$ ist...
 **Bijektivität**: Es gibt eine perfekte Eins-zu-eins-Korrespondenz zwischen den Elementen der Definitionsmenge $A$ und der Zielmenge $B$. Jede Abbildung von $A$ auf $B$ ist eindeutig und deckt die gesamte Zielmenge ab. Eine bijektive Funktion hat auch eine Umkehrfunktion $f^{-1}: B \to A$, die ebenfalls eine Funktion ist.
 
 ### Beispiel 1
-![Injektivität und Surjektivität.png](./Anhang/Injektivität und Surjektivität.png)
+![Injektivität und Surjektivität.png](./Anhang/Injektivität%20und%20Surjektivität.png)
 
 - Die Abbildung $f$ in ist weder injektiv noch surjektiv
 - Die Abbildung $g$ ist surjektiv, aber nicht injektiv
@@ -612,7 +612,7 @@ Für die Quadratfunktion $f : R → R, x → f(x) = x^2$ ist das Bild vom Interv
 [Kp was hier abgeht]
 $f : \mathbb{R} → \mathbb{R}$
 $x↦f(x) = (x−1)^2−1$
-![Abbildung Beispiel.png](./Anhang/Abbildung Beispiel.png)
+![Abbildung Beispiel.png](./Anhang/Abbildung%20Beispiel.png)
 
 Gilt $f(x_0) = y_0$, so heißt $y_0$ das Bild von $x_0$ und $x_0$ heißt das Urbild von $y_0$, $G_f := \{(x,f(x))|x∈A\}$ heißt Graph von $f$
 
@@ -915,7 +915,7 @@ $$
 **Beispiel**:
 - Gegeben ist ein gerichteter Graph, bei dem man prüfen soll, ob es Pfade zwischen bestimmten Knoten gibt
 - In einem nichtdeterministischen Berechnungsmodell lässt sich der Pfad mit polynomiellem Speicherplatz verfolgen
-- Da die Beziehung zwischen $NPSPACE$ und $PSPACE$ durch Savitch’s Theorem demonstriert, dass sie äquivalent sind, gehört es auch zur $PSPACE$. 
+- Da die Beziehung zwischen $NPSPACE$ und $PSPACE$ durch Savitch’s Theorem demonstriert, dass sie äquivalent sind, gehört es auch zur $PSPACE$.
 
 ### Polynomielle Reduzierbarkeit
 - Ein Problem, in diesem Fall eine Sprache $L ⊆Σ^∗$ ist polynomiell reduzierbar auf eine Sprache $N ⊆ Γ^∗$ ($N ≤_{poly} L$), falls es eine Funktion $f : Γ^∗→Σ^∗$ gibt, die Instanzen von $L$ in Instanzen von $N$ umwandelt, wobei $f$ in polynomialer Zeit berechenbar ist: $∀w∈Γ^∗: w∈N ⇔f(w) ∈L$
@@ -954,7 +954,7 @@ $f(x_1,x_2,x_3,x_4) = \overline{x_3} ∧ (x_1 ∨x_2) ∧ (\overline{x_2} ∨ x_
 - Aus Klausel 2 folgt, dass $x_1$ wahr sein muss, da $x_2$ falsch ist
 - Aus Klausel 4 folgt, dass $x_4$ wahr sein muss, weil $x_1$ nicht falsch sein kann (schon wahr gesetzt wird in Klausel 2)
 
-![SAT Beispiel.png](./Anhang/SAT Beispiel.png)
+![SAT Beispiel.png](./Anhang/SAT%20Beispiel.png)
 
 Der Term ist wahr, wenn $x= (1,0,0,1)$.
 
@@ -1049,7 +1049,7 @@ Beispiele für ein vereinfachtes Teilsummenprobleme sind die Fragen bei der gege
 2. Rest davon durch $10$ oder $6$ teilbar: nein
 3. Kommt $0$ raus ist man erfolgreich
 
-![Vereinfachtes Teilsummenproblem Beispiel.png](./Anhang/Vereinfachtes Teilsummenproblem Beispiel.png)
+![Vereinfachtes Teilsummenproblem Beispiel.png](./Anhang/Vereinfachtes%20Teilsummenproblem%20Beispiel.png)
 
 - Damit sind $22 = 20 + 2$ und $27 = 20 + 6 + 1$ und $24$ ist nicht darstellbar
 - Es ist auch unmittelbar ersichtlich, wie die Binärzahl $01001_2$ in der Zahl $22$ und die Binärzahl $10101_2$ in der Zahl $27$ eindeutig kodiert wird.
@@ -1356,7 +1356,7 @@ Paradigmen
 
 Die
 Abbildung 4.1.1 versucht eine zeitliche Entwicklung und Einflüsse der Paradigmen und Programmierspra-
-chen in einem unvollständigen Überblick darzustellen. 
+chen in einem unvollständigen Überblick darzustellen.
 
 Da Sprachen über viele Jahre weiterentwickelt
 werden, werden die Sprachen inzwischen auch Paradigmen zugeordnet, die zum dargestellten ersten
@@ -1364,7 +1364,7 @@ Einführung noch kein Thema waren, wie beispielsweise die Objekt-Orientierung in
 
 Im deklarativen Programmiermodell werden besonders die logischen und das funktionalen Modelle un-
 terschieden. Das Logische Programmiermodell basiert auf einer regelbasierten Datenbasis, aus der
-Ziele als logische Folgerungen aus der Datenbasis abgeleitet werden. 
+Ziele als logische Folgerungen aus der Datenbasis abgeleitet werden.
 
 Die Sprache Prolog ist ein wichtiges Beispiel für dieses Modell. Das Funktionale Programmiermodell identifiziert alle Fragestellungen
 als funktionale und ideal nebenwirkungsfreie Auswertungen, wodurch Zusammenhänge durch ihre funk-
@@ -1387,7 +1387,7 @@ entscheidend beeinflusst.
 Im Folgenden werden in Ergänzung zu den klassischen Programmiervorlesungen zu imperativen Pro-
 grammiersprachen zwei wichtige Konzepte der deklarativen Programmierung vorgestellt.
 
-![Entwicklung von Programmiersprachen und Paradigmen.png](./Anhang/Entwicklung von Programmiersprachen und Paradigmen.png)
+![Entwicklung von Programmiersprachen und Paradigmen.png](./Anhang/Entwicklung%20von%20Programmiersprachen%20und%20Paradigmen.png)
 
 
 
