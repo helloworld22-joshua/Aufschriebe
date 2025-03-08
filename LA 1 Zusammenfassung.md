@@ -1,4 +1,5 @@
 # Definitionen
+
 **Einheitsvektor**: Ein Vektor, dessen Länge (Betrag, euklidische Norm) eins ist, heißt Einheitsvektor[Bsp]
 **Basisvektor**: Einheitsvektoren, die genau eine Eins und sonst Nullen besitzen, heißen kanonische Basisvektoren[Bsp]
 **Untermatrix**: Eine Matrix, die durch Streichen von Zeilen und/oder Spalten aus einer Matrix $A$ hervorgeht[Bsp]
@@ -31,7 +32,7 @@ Mit dieser Beweismethode werden Gleichungen und Ungleichungen bewiesen. Zwei Mö
 
 ### Beispiel
 
-![Direkter Beweis Bsp.png](./Anhang/Direkter Beweis Bsp.png)
+![Direkter Beweis Bsp.png](./Anhang/Direkter%20Beweis%20Bsp.png)
 
 ## Indirekter Beweis (Widerspruchsbeweis) 2.3
 
@@ -41,7 +42,7 @@ Mit dieser Beweismethode werden Gleichungen und Ungleichungen bewiesen. Zwei Mö
 
 ### Beispiel
 
-![Indirekter Beweis.png](./Anhang/Indirekter Beweis.png)
+![Indirekter Beweis.png](./Anhang/Indirekter%20Beweis.png)
 
 ## Beweis durch vollständige Induktion 2.4
 
@@ -57,7 +58,7 @@ Mit dieser Beweismethode werden Gleichungen und Ungleichungen bewiesen. Zwei Mö
 
 ### Beispiel
 
-![Vollständige Induktion Bsp.png](./Anhang/Vollständige Induktion Bsp.png)
+![Vollständige Induktion Bsp.png](./Anhang/Vollständige%20Induktion%20Bsp.png)
 
 ## Beweis von Äquivalenzen 2.5
 
@@ -98,8 +99,9 @@ Wenn eine Funktion auf einem Intervall $(a, b)$ ein Minimum hat, ist ihre Ableit
 
 ## Bezeichnung einer Menge nach Anzahl der Elemente
 
+
 | Anzahl der Elemente | Bezeichnung      |
-| ------------------- | ---------------- |
+| --------------------- | ------------------ |
 | null (keins)        | leere Menge      |
 | endlich viele       | endliche Menge   |
 | unendlich viele     | unendliche Menge |
@@ -107,8 +109,9 @@ Wenn eine Funktion auf einem Intervall $(a, b)$ ein Minimum hat, ist ihre Ableit
 
 ## Bezeichnung von Teilmengen
 
+
 | Anzahl der Elemente | Bezeichnung |
-| ------------------- | ----------- |
+| --------------------- | ------------- |
 | eins                | Singleton   |
 | zwei                | Paar        |
 | drei                | Tripel      |
@@ -117,12 +120,12 @@ Wenn eine Funktion auf einem Intervall $(a, b)$ ein Minimum hat, ist ihre Ableit
 
 ## Spezielle Mengen 3.1
 
-![Spezielle Menge.png](./Anhang/Spezielle Menge.png)
+![Spezielle Menge.png](./Anhang/Spezielle%20Menge.png)
 ![Zahlenmengen.png](./Anhang/Zahlenmengen.png)
 
 ## Erweiterung des Mengenbegriffs 3.2
 
-![Aufweichung des Mengen-Begriffs.png](./Anhang/Aufweichung des Mengen-Begriffs.png)
+![Aufweichung des Mengen-Begriffs.png](./Anhang/Aufweichung%20des%20Mengen-Begriffs.png)
 
 ### Fuzzy-Menge
 
@@ -168,7 +171,7 @@ Eine Menge, in der gleiche Elemente mehrfach vorkommen können.
 - Bei der Winkelberechnung von $z$ erhält man beim Bruch einen positiven Wert, dies ist aber auch bei $w$ zutreffend, obwohl es in einem anderen Quadranten liegt
 - In diesem Thema werden $\phi$ und $\varphi$, sowie $r$ und $|z|$ oft austauschbar verwendet
 
-![Komplexe Zahlen Graph.png](./Anhang/Komplexe Zahlen Graph.png)
+![Komplexe Zahlen Graph.png](./Anhang/Komplexe%20Zahlen%20Graph.png)
 
 **Polarform**: $z=|z|·e^{iϕ} = r·e^{iϕ}$
 **Trigonometrischen oder goniometrischen Form**: $z=|z|·(cos(ϕ) + i· sin(ϕ))$
@@ -180,20 +183,23 @@ $\phi=arctan_2(b,a)$
 **Merke**: Auf den jeweiligen Quadranten achten!
 
 **Geometrische Darstellung (Argand-Diagramm)**: Eine komplexe Zahl kann als Punkt oder Vektor in der komplexen Ebene angesehen werden
-![Argand-Diagramm 2.png](./Anhang/Argand-Diagramm 2.png)
+![Argand-Diagramm 2.png](./Anhang/Argand-Diagramm%202.png)
 ![Argand-Diagramm.png](./Anhang/Argand-Diagramm.png)
 
 ## Rechenregeln für komplexe Zahlen 4.2
 
-![Rechenregeln für komplexe Zahlen.png](./Anhang/Rechenregeln für komplexe Zahlen.png)
+![Rechenregeln für komplexe Zahlen.png](./Anhang/Rechenregeln%20für%20komplexe%20Zahlen.png)
 
 ## Rechenoperationen
 
 ![Rechenoperationen.png](./Anhang/Rechenoperationen.png)
 
 # Polynome 5
+
 ## Einvariable Polynome 5.1
+
 ### Polynom
+
 - Eine Funktion $p : \mathbb{C→C}$ der Art $p(x) = \sum_{k=0}^{n} p_kx^k = p_nx^n + p_{n-1}x^{n-1} + ... + p_2x^2 + p_1x + p_0$ heißt Polynom
 - $n$ ist eine nicht-negative ganze Zahl, die den Grad des Polynoms angibt
 - Sind die Koeffizienten $p_k$ reell, heißt es reelles Polynom, für $p_k∈\mathbb{C}$ komplexes Polynom
@@ -203,6 +209,7 @@ $\phi=arctan_2(b,a)$
 **Beispiel:** Das Polynom $p(x) = 2x^3 - 4x^2 + 3x - 5$ ist ein Polynom dritten Grades mit vier Termen.
 
 ### Monom
+
 - Ein ist ein Polynom, das aus genau einem Term besteht $p(x)=p_kx^k$
 - Ein Standardmonome ist $p_k = 1$
 - Ein Polynom besteht aus Monomen
@@ -210,12 +217,14 @@ $\phi=arctan_2(b,a)$
 **Beispiel**: Das Monom $p(x)=5x^6$, bestehend aus dem Koeffizienten 5 und der Variablen $x$ mit dem Exponenten 6.
 
 ### Monisches Polynom
+
 - Für ein Polynom $p(x) = \sum_{k=1}^{n} p_kx^k; p_n ≠ 0$ bezeichne $lm(p) = x^n$ das Leitmonom und $lc(p) = p_n$ den Leitkoeffizienten oder führenden Koeffizienten
 - Polynome mit $lc(p) = 1$ heißen monisch
 
 **Beispiel**: $g(x) = x^3 + 4x^2 - 3x + 2$ ist ein monisches Polynom, weil der führende Koeffizient (der Koeffizient von $x^3$) gleich 1 ist.
 
 ### Nullstelle (Wurzel eines Polynoms)
+
 - Ein Wert $x_i$, durch den das Polynom null wird $p(x_i) = 0$ heißt Nullstelle oder Wurzel eines Polynoms
 - Es heißt $k$-fache Wurzel, wenn es Wurzel von $p(x)$ ist, aber nicht vom Polynom $p(x)/(x−x_i)^k$
 - Der Begriff "Wurzel" ist historisch gewachsen und muss nicht unbedingt etwas mit einer Wurzel (radix) $\sqrt{}$ zu tun haben
@@ -223,6 +232,7 @@ $\phi=arctan_2(b,a)$
 **Beispiel**: Die Nullstelle des linearen Polynoms $p(x) = x - 4$ ist $4$, weil $4 - 4 = 0$
 
 ### Fundamentalsatz der Algebra
+
 - Jedes Polynom mit einem Grad größer als null hat mindestens eine Nullstelle in den komplexen Zahlen
 - Jedes Polynom mit Grad $n$ hat genau $n$ komplexe Nullstellen $x_i$ dargestellt $p(x) = p_n(x−x_1)(x−x_2)···(x−x_n)$
 - D.h. komplexe sind Zahlen notwendig, um die Gleichungen abzuschließen
@@ -230,12 +240,14 @@ $\phi=arctan_2(b,a)$
 **Beispiel**: Das Polynom $q(x) = x^2 + 1$ zeigt, dass selbst wenn es keine reellen Nullstellen gibt, es immer noch die komplexen Nullstellen $x = i$ und $x = -i$ gemäß dem Fundamentalsatz der Algebra gibt.
 
 ### Konjungiert komplexe Wurzeln reeller Polynome
+
 - In einem reellen Polynom treten komplexe Wurzeln stets als konjungiert komplexe Paare auf
 - Heißt: Wenn ein Polynom reelle Koeffizienten hat und eine komplexe Zahl $a + bi$ (wobei $b \neq 0$) eine Wurzel ist, dann ist ihr konjugiertes $a - bi$ ebenfalls eine Wurzel
 
 **Beispiel**: Wenn ein Polynom wie $p(x) = x^2 + (4-2i)x + 5$ eine komplexe Wurzel $2 + i$ hat, muss auch $2 - i$ eine Wurzel sein (angenommen, es handelt sich um reelle Koeffizienten).[?]
 
 ### Wurzelsatz von Vieta
+
 - Vieta entdeckte, dass die Summe und das Produkt der Nullstellen eines Polynoms mit den Koeffizienten des Polynoms verknüpft sind
 - Zwischen den $n$ Wurzeln $x_1,x_2,...,x_n$ und den Koeffizienten der Gleichung $x^n + p_{n−1}x^{n−1} +...+ p_0$ besteht der Zusammenhang:
 
@@ -245,11 +257,13 @@ x_1x_2 + x_1x_3 + ...x_{n-1}x_n = \sum_{\overset{i,j=1}{i<j}}^{n} x_ix_j=p_{n-2}
 x_1x_2x_3 + x_1x_2x_4 + ...x_{n-2}x_{n-1}x_n = \sum_{\overset{i,j,k=1}{i<j<k}}^{n} x_ix_jx_k=-p_{n-3} \\
 ... \\
 x_1x_2...x_n=(-1)^np_0
+
 $$
 
 **Beispiel**: Für das Polynom $s(x) = x^2 - 5x + 6$, laut Vieta ist die Summe der Nullstellen $3 + 2 = 5$ (entspricht $-(-5)/1$), und das Produkt ist $3 \times 2 = 6$ (entspricht $6/1$).[?]
 
 ### Rationale und gebrochenrationale Funktionen
+
 - Eine Funktion heißt rational, wenn die unabhängigen Variablen durch endlich viele rationale Rechenoperationen wie Addition, Subtraktion, Multiplikation oder Division, verknüpft sind
 - Eine gebrochenrationale oder kurz rationale Funktion lässt sich als Bruch darstellen, bei dem sowohl der Zähler als auch der Nenner Polynome sind
 - Sie heißt echt gebrochenrationale Funktion, wenn der Polynomgrad des Zählers kleiner ist als der des Nenners
@@ -261,7 +275,9 @@ $$
 **Nichtrationale Funktionen**: $r(x) = \sqrt{x^3}$ ist nicht rational, weil sie nicht als Bruch von zwei Polynomen dargestellt werden kann.
 
 ## Mehrvariable Polynome 5.2
+
 ### $n$-variates Polynom
+
 - Ein $n$-variates Polynom, auch Polynom in $n$ Variablen, ist ein Polynom, das mehr als eine Variable beinhaltet
 - $n$ stellt die Anzahl der Variablen dar
 - Der maximalen Grad eines der Terme betrachtet man, indem man die Summe der Exponenten der Variablen in jedem Term bildet[?]
@@ -274,10 +290,12 @@ $$
 **Beispiel**: Das Polynom $p(x, y, z) = 2x^3 + 3xy^2 - yz + 5$ hat Terme, die drei Variablen $x$, $y$ und $z$ verwendet. Der Grad des Polynoms ist 3, da der höchste Gesamtgrad eines einzelnen Terms (hier $2x^3$) 3 ist.
 
 #### Kreisgleichung
+
 $(x−x_0)^2 + (y−y_0)^2= r^2$
 $x_2−2x_0x+ y_2−2y_0y+ x_0^2 + y_0^2−r^2 = 0$
 
 ### Multilineares Polynom
+
 - Ein Polynom  $p(x_1,...,x_p)$ in $p$ Variablen ist multilinear, wenn jeder Term linear in Bezug auf jede Variablen ist
 - D.h., in jedem Term trettet jede Variable entweder gar nicht oder genau mit dem Exponenten 1 auf[?]
 
@@ -286,11 +304,13 @@ p(x_1,...,x_p) = a_0
 \sum_{i=1}^p a_ix_i +
 \sum_{i \neq j}^p b_{i,j}x_ix_j +
 \sum_{i \neq j;\ i \neq k;\ j \neq k}^p c_{i,j,k}x_ix_jx_k + ...
+
 $$
 
 **Beispiel**: Die Funktion $m(x, y) = 2xy + 3x + y$ ist multilinear, weil alle Terme entweder linear (z.B. $3x$, $y$) sind oder das Produkt von Variablen jedes mit dem Exponent 1 (z.B. $2xy$) ist.
 
 ### Quadratische Form
+
 - Ein Polynom $p(x) = p(x_1, x_2, \ldots, x_n) = x^TA_x = \sum_{i=1}^n \sum_{j=1}^n a_{ij}x_ix_j$, bei dem alle Terme vom Grad 2 (Bilinearform) sind, mit Koeffizienten $a_{ij} ∈ R$ heißt homogen oder reelle quadratische Form in den Variablen $x_1,...,x_n$ und $p(x) = x^HA_x$ mit $A ∈ C^{n×n}$ komplexe quadratische Form
 - Ist $A$ symmetrisch, hermitesch oder positiv definit, so spricht man von einer symmetrischen, hermiteschen oder positiv definiten quadratischen Form
 - Durch Umformung eines Polynoms in eine quadratische Form können Abschätzungen berechnet und Ungleichungen für das Polynom bewiesen werden, etwa über Eigenwerte
@@ -299,6 +319,7 @@ $$
 **Beispiel**: $3x^2 − 2xy + y^2 = (x,y)^T = \begin{pmatrix} 3 & -1 \\ -1 & 1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix}$ ist eine quadratische Form, da es ausschließlich Terme beinhaltet, die entweder das Quadrat einer Variablen darstellen (z.B. $3x^2$, $y^2$) oder das Produkt zweier Variablen (z.B. $-2xy$).
 
 #### Symmetrisierung
+
 $A$ kann immer symmetrisch gewählt werden, ggf. Symmetrisierung: $A := \frac{1}{2} (A+ A^T)$[?]
 
 #### Bestimmung der Nullstellen
@@ -306,7 +327,9 @@ $A$ kann immer symmetrisch gewählt werden, ggf. Symmetrisierung: $A := \frac{1}
 #### Reduzierung des Polynomgrades durch Polynomdivision
 
 # Matrix 6
+
 **Matrix**:
+
 - Ein rechteckiges Schema von $m$ Zeilen und $n$ Spalten als $(m×n)$-Matrix ("$m$ kreuz $n$")
 - Objekte einer Matrix werden Elemente genannt
 - Elemente $a_{ii}$ einer Matrix bilden deren Hauptdiagonale (Diagonale die beginnend bei $a_{11}$ nach rechts unten fällt)
@@ -320,20 +343,23 @@ a_{11} & a_{12} & a_{13} \\
 a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33}
 \end{pmatrix}
+
 $$
 
-* **Hauptdiagonale**: $a_{11}​, a_{22}​, a_{33}$​ (von oben links nach unten rechts)
-* **Nebendiagonale**: $a_{13}​, a_{22}​, a_{31}​$ (von oben rechts nach unten links)
-* **Oberdiagonale**: $a_{12}​, a_{23}$​ (oberhalb der Hauptdiagonalen)
-* **Unterdiagonale**: $a_{21}​, a_{32}$​ (unterhalb der Hauptdiagonalen)
+* **Hauptdiagonale**: $a_{11}, a_{22}, a_{33}$ (von oben links nach unten rechts)
+* **Nebendiagonale**: $a_{13}, a_{22}, a_{31}$ (von oben rechts nach unten links)
+* **Oberdiagonale**: $a_{12}, a_{23}$ (oberhalb der Hauptdiagonalen)
+* **Unterdiagonale**: $a_{21}, a_{32}$ (unterhalb der Hauptdiagonalen)
 
 **Vektor**:
+
 - $(m×1)$-Matrix heißt Spaltenvektor oder kurz Vektor, $(1×n)$-Matrix heißt Zeilenvektor
 
 $$
 Spalt.\ \underline{x} = \begin{pmatrix}1\\ 2\\ 3\end{pmatrix}
 \quad
 Zeil.\ \underline{y} = (4\ 5\ 6)
+
 $$
 
 - Elemente eines Vektors auch bezeichnet man als Koordinaten oder Komponenten
@@ -343,9 +369,11 @@ $$
 $$
 \begin{pmatrix}1\\ 2\end{pmatrix} \leq \begin{pmatrix}3\\ 3\end{pmatrix} \checkmark
 \quad \begin{pmatrix}1\\ 100\end{pmatrix} \leq \begin{pmatrix}2\\ 2\end{pmatrix} ✗
+
 $$
 
 ## Operationen
+
 **Addition (komponentenweise)**:
 $A + B := ((a_{ij} + b_{ij}))$, mit $A= ((a_{ij})),B = ((b_{ij}))$ und $A,B \in \mathbb{C}^{m×n}$
 
@@ -394,7 +422,7 @@ $\begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix} \times \begin{pmatrix}5 & 7\\ 6 & 8\e
 *Zeilen von links werden mit den Spalten von rechts multipliziert und dann addiert.*
 
 - Matrizenprodukt ist assoziativ und **nicht** kommutativ
-	⇒ Matrizen können keine abelschen Gruppen bilden[?]
+  ⇒ Matrizen können keine abelschen Gruppen bilden[?]
 
 **Hadamard-Produkt**:
 $A⊙B := ((a_{ij}·b_{ij}))$, mit $A∈\mathbb{C}^{m×n},B∈\mathbb{C}^{m×n}$
@@ -420,6 +448,7 @@ $A=\begin{pmatrix}3 & 2 \\ 4 & 5\end{pmatrix},\ vec(A)=\begin{pmatrix} 3 \\ 4 \\
 [TODO: \text verwenden statt Leerzeichen, Außerdem nur manchmal komplexe Zahlen]
 
 ## Spezielle Matrizen
+
 **Symmetrische Matrix**:
 $a_{ij} = a_{ji}$ und $A^T= A$
 
@@ -458,10 +487,10 @@ $\begin{pmatrix}0 & 1 & 2\\ -1 & 0 & 3\\ -2 & -3 & 0\end{pmatrix}$
 **Hermitesche Matrix**:
 $a_{ij}=a_{ji}$ und $A^H=A$
 
- $\begin{pmatrix}1 & 1+i\\ 1-i & 3\end{pmatrix}$
+$\begin{pmatrix}1 & 1+i\\ 1-i & 3\end{pmatrix}$
 
 *Symmetrisch und Vorzeichen von komplexen Zahlen werden umgedreht*
- 
+
 **Schiefhermitesche Matrix**:
 $a_{ij}=a_{ji}$ und $A^H=A$
 
@@ -491,6 +520,7 @@ $x^TAx(x_1\ x_2)\begin{pmatrix}2 & -1 \\ -1 & 2\end{pmatrix} \begin{pmatrix}x_1 
 *Symmetrisch, Eigenwerte sind positiv und für jedes $x$ kommt ein positiver Wert raus*
 
 # Lineare Gleichungssysteme 7
+
 - Bei einem lineares Gleichungssystem (LGS) sollen mehrere Gleichung gleichzeitig gelöst werden, um die Werte für bestimmte Unbekannte ($x_1, x_2, …, x_n$) zu finden
 - Die gesammte Gleichung kann als $Ax=b$ zusammengefasst werden, wobei $A$ eine Matrix und $b,x$ Vektoren sind: $A∈\mathbb{C}_r^{m×n} ,x∈\mathbb{C}^n; b∈\mathbb{C}^m$
 - $A$ enthält alle Koeffinzienten $a_{ij}$ und $x$ alle Unbekannten
@@ -502,12 +532,15 @@ a_{11}x_1 + a_{12}x_2 + a_{13}x_3 +...+ a_{1n}x_n = b_1 \\
 a_{21}x_1 + a_{22}x_2 + a_{23}x_3 +...+ a_{2n}x_n = b_2 \\
 ... \\
 a_{m1}x_1 + a_{m2}x_2 + a_{m3}x_3 +...+ a_{mn}x_n = b_m
+
 $$
 
 ## Lösung des linearen Gleichungssystems 7.2
+
 **Ziel**: Das LGS so umformen, sodass sich die Lösungsmenge nicht ändert und leicht abgelesen werden kann
 
 **Erlaubte (äquivalente) Umformungen**:
+
 1. Vertauschen von zwei Zeilen
 2. Multiplikation mit einer Zahl
 3. Addition/subtraktion einer Zeile mit einer anderen
@@ -522,6 +555,7 @@ $$
 - Verwende (falls nötig) das Pivot-Element, um durch Umformungen alle darunterliegenden Einträge in dieser Spalte auf $0$ zu setzen und gehe danach eine Spalte nach rechts
 
 ### Beispiel
+
 $\begin{pmatrix} \boxed{1} & 0 & 2 & 1 & | & 0 \\ 0 & \boxed{1} & 2 & 1 & | & 0 \\ 0 & 1 & 1 & 2 & | & -2 \\ 0 & 1 & 0 & 1 & | & 0 \\ \end{pmatrix}$
 
 $Z_3=Z_3-Z_2$
@@ -551,11 +585,13 @@ $x_1=2$
 $x = (2,2,0,−2)^T$
 
 ## Nullraum
+
 - Der Nullraum (oder Kern) ist die Menge aller Vektoren $x$, die die Gleichung $Ax=0$ erfüllen
 - Die Dimension eines Nullraums ist die Menge der Vektoren [Es gibt eine schnelle Methode ohne rechnen anscheinend]
 - Sind die Dimensionen der Matrix und des Bildraums bekannt, ist die Dimension des Nullraums die Differenz
 
 ### Beispiel
+
 $A=\begin{pmatrix}2 & 3 & 3 & 6 & 1 \\ 0 & 4 & 4 & 8 & 8 \\ 0 & 5 & 5 & 10 & 5 \\ 0 & 1 & 1 & 2 & 1\end{pmatrix}$
 
 *Ich zeichne nicht immer das Pivot-Element ein, man soll es sich einfach vorstellen.*
@@ -592,7 +628,7 @@ $x_2=-x_3-2x_4$
 $x_3=-x_2-2x_4$
 $x_4=-1/2x_2-1/2x_3$
 
-**In $x_2$ werden $x_3$ und $x_4$ mit den Skalaren $λ$ und $µ$ ersetzt**:​
+**In $x_2$ werden $x_3$ und $x_4$ mit den Skalaren $λ$ und $µ$ ersetzt**:
 $x_1=0$
 $x_2=-λ-2µ$
 $x_3=λ$
@@ -604,25 +640,30 @@ $x_5=0$
 $N(A)=λ\begin{pmatrix}0\\-1\\1\\0\\0\end{pmatrix}+µ\begin{pmatrix}0\\-2\\0\\1\\0\end{pmatrix}$
 
 ## Bildraum
+
 - Der Bildraum ist die Menge aller Vektoren, die als $Ax$ für irgendeinen Vektor $x$ dargestellt werden können[?]
 
 ### Beispiel
+
 **Wenn $x_n$ kein $λ$ oder $µ$ ist, ist es Teil des Bildraums. Dazu werden die Spalten der anfänglichen Matrix eingesetzt**:
 
 $R(A)=α\begin{pmatrix}2\\0\\0\\0\end{pmatrix}+β\begin{pmatrix}3\\4\\5\\1\end{pmatrix}+γ\begin{pmatrix}1\\8\\5\\1\end{pmatrix}$
 
 ## Inverse einer Matrix 7.3
+
 - Inverse $X$ von $A$ ist $A^{−1}$ mit $A \in \mathbb{R}^{n \times n}$, wenn $AX = XA = I_n$
 - D.h., die Matrix mal die Inverse der Matrix ergibt den Einheitsvektor $A \times A^{-1}=I$
 - Determinante muss ungleich null sein
 
 ### Inverse mit Gauß-Jordan-Algorithmus
+
 - Matrix $A$ mit Einheitsmatrix $I$ erweitern: $A=I$
 - Das Ziel ist, die linke Seite in die Einheitsmatrix $I$ umzuwandeln
 - Die rechte Seite wird dann zu $A^{−1}$
 - Umformungensregeln sind die gleichen wie bei LGS
 
 #### Beispiel
+
 $A = \begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 2 \\ 2 & 4 & 2 \end{pmatrix}$
 
 $\begin{pmatrix} 1 & 1 & 1 & | & 1 & 0 & 0 \\ 1 & 2 & 2 & | & 0 & 1 & 0 \\ 2 & 4 & 2 & | & 0 & 0 & 1 \end{pmatrix}$
@@ -651,11 +692,13 @@ $A^{-1} = \begin{pmatrix} 2 & -1 & 0 \\ -1 & 0 & \frac{1}{2} \\ 0 & 1 & -\frac{1
 [Was ist die Umkehrabbildung der Funktion]
 
 ### Inverse mit Determinante
+
 **Allgemein**:
 
 $$
 A=\begin{pmatrix}a & b \\ c & d\end{pmatrix} \quad
 A^{-1}=\frac{1}{det(A)} adj(A)
+
 $$
 
 **Für $2 \times 2$ Matrix:**
@@ -663,9 +706,11 @@ $$
 $$
 A=\begin{pmatrix}a & b \\ c & d\end{pmatrix} \quad
 A^{-1} = \frac{1}{ad-bc} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+
 $$
 
 #### Beispiel
+
 $A = \begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 2 \\ 2 & 4 & 2 \end{pmatrix}$
 
 **Determinante von $A$ berechnen**:
@@ -694,14 +739,17 @@ $\operatorname{adj}(A) = \begin{pmatrix} -4 & 0 & 0 \\ -2 & 0 & 1 \\ 0 & 2 & 1 \
 $A^{-1} = \frac{1}{-2} \begin{pmatrix} -4 & 0 & 0 \\ -2 & 0 & 1 \\ 0 & 2 & 1 \end{pmatrix} = \begin{pmatrix} 2 & 0 & 0 \\ 1 & 0 & -\frac{1}{2} \\ 0 & -1 & -\frac{1}{2} \end{pmatrix}$
 
 ## Matrixgleichung 7.4
+
 - Eine Gleichung, in der die Unbekannte eine Matrix ist
 - Sie heißt linear, wenn neben einem Absolutglied $C$ nur Terme der Art $A_iXB_i$ auftreten, die additiv verknüpft sind [?]
 
 ### Methode 1
+
 1. Inversen von $A$ und $B$ berechnen
 2. Rechne $AXB=C ⇒ X = A^{-1} \times C \times B^{-1}$
 
 #### Beispiel
+
 $A = \begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 2 \\ 2 & 4 & 2 \end{pmatrix},\ B = \begin{pmatrix} 4 & 2 & 2 \\ 2 & 2 & 1 \\ 2 & 4 & 2 \end{pmatrix},\ C = \begin{pmatrix} 1 & 0 & 1 \\ 2 & 0 & 1 \\ 1 & 1 & 0 \end{pmatrix}$
 
 *Inversenrechnung wird oben bereits erklärt und $A$ ist schon berechnet, also wird der Teil übersprungen*
@@ -715,6 +763,7 @@ $=\begin{pmatrix} 0 & 0 & 1 \\ -\frac{1}{2} & \frac{1}{2} & -1 \\ \frac{3}{2} & 
 $=\begin{pmatrix} 1 & -3 & 1 \\ -\frac{5}{4} & 3 & -\frac{3}{4} \\ \frac{5}{4} & -2 & \frac{1}{4} \end{pmatrix}$
 
 ### Methode 2
+
 - Rechne $AXB=C ⇒ (B^T \otimes A)\times vec(X)=vec(C)$
 
 $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix},\ B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix},\ C = \begin{pmatrix} 4 & 1 \\ 2 & 2 \end{pmatrix}$
@@ -742,34 +791,42 @@ $\begin{pmatrix} 0 & 0 & 1 & 2 & | & 4 \\ 0 & 0 & 3 & 4 & | & 2 \\ 1 & 0 & 0 & 0
 [Linear Unabhängigkeit bei Nullraum + Testen mit Vektor]
 
 # Funktionale von Matrizen
+
 ## Spur 8.1
+
 - Die Summe der Hauptdiagonalelemente einer quadratischen Matrix
 
 **Rechenregeln**:
-![Rechenregeln Spur.png](./Anhang/Rechenregeln Spur.png)
+![Rechenregeln Spur.png](./Anhang/Rechenregeln%20Spur.png)
 
 ### Beispiel
+
 $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}$
 
 $sp(A)=1+5+9=15$
 
 ## Determinante 8.2
+
 [[TI 1 Zusammenfassung###Permutationen]]
+
 - Existiert nur für quadratische Matrizen
 - Geometrisch gesehen, beschreibt die Determinante das Volumen des Parallelepipeds, das durch die Zeilen- oder Spaltenvektoren der Matrix aufgespannt wird[Bild finden]
 - Wenn $det(A)=0$, sind die Vektoren linear abhängig und das Volumen des Raumgebildes ist null, heißt, die Matrix ist nicht invertierbar
 
-### $2 × 2$-Matrix Determinante 
+### $2 × 2$-Matrix Determinante
+
 - Multipliziere Elemente der Hauptdiagonalen, von oben links nach unten rechts, und subtrahiere das Produkt der Elemente der Nebendiagonalen, von oben rechts nach unten links
 
 $det(A)=\begin{pmatrix} a & b \\ c & d \end{pmatrix}=ad-bc$
 
 #### Beispiel
+
 $A=\begin{pmatrix} 2 & 3 \\ 4 & -1 \end{pmatrix}$
 
 $det(A)=2\times(-1)-3\times4=-2-12=-14$
 
 ### Regel von Sarrus ($3 × 3$-Matrix)
+
 - Elemente von oben links nach unten rechts (grün) multiplizieren und die Produkte addieren
 - Elemente von unten links nach oben rechts (rot) multiplizieren und die Produkte subtrahieren
 
@@ -781,6 +838,7 @@ $det(A)=a \times e \times i + b \times f \times g + c\times d \times h$
 $-g \times e \times c − h \times f \times a − i \times d \times b$
 
 #### Beispiel
+
 $A = \begin{pmatrix} 3 & -1 & 2 \\ 1 & 1 & 2 \\ 2 & 1 & -1 \end{pmatrix}$
 
 **Hauptdiagonalen**: $3\times1\times(-1)+(-1)\times2\times2+2\times1\times1$
@@ -789,15 +847,17 @@ $A = \begin{pmatrix} 3 & -1 & 2 \\ 1 & 1 & 2 \\ 2 & 1 & -1 \end{pmatrix}$
 **Hauptd. - Nebend.**: $det(A)=-3-4+2-4-6-1=-16$
 
 ### Laplacescher Entwicklungssatz ($n × n$-Matrix)
+
 1. Wähle eine Zeile oder Spalte, je nachdem, was am einfachsten ist
 2. Finde die Nebenminoren, also die Matrizen unter/neben gewählten Zeile/Spalte. Zeilenweise: Entferne die erste Spalte bei der ersten Matrix, die zweite Spalte bei der zweiten… (Bei Spalten genau umgekehrt)
 3. Die Nebenminoren sollten nun eine Dimension kleiner sein. Berechne ihre Determinanten
 4. Die Elemente der gewählten Spalte werden abwechseln mit $+1$ und $-1$ multipliziert und dann nochmal mit den jeweiligen Determinanten. Ist die Zeile/Spalte ungerade, werden sie zuerst mit $+1$ multipliziert, ist sie gerade, mit $-1$
 
 **Rechenregeln**:
-![Rechenregeln Determinante.png](./Anhang/Rechenregeln Determinante.png)
+![Rechenregeln Determinante.png](./Anhang/Rechenregeln%20Determinante.png)
 
 #### Beispiel mit $3 \times 3$
+
 $A = \begin{pmatrix} 6 & 1 & 8 \\ 7 & 5 & 9 \\ 2 & 3 & 4 \end{pmatrix}$
 
 $M_{11} = \begin{vmatrix} 5 & 9 \\ 3 & 4  \end{vmatrix},\quad det(M_{11}) = (5 \cdot 4) - (9 \cdot 3) = 20 - 27 = -7$
@@ -809,6 +869,7 @@ $M_{13} = \begin{vmatrix} 7 & 5 \\ 2 & 3 \end{vmatrix},\quad det(M_{13}) = (7 \c
 $det(A) = + 6 \cdot (-7) - 1 \cdot 10 + 8 \cdot 11 = (-42) - 10 + 88 = 36$
 
 #### Beispiel mit $4 \times 4$
+
 $A = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 5 & 6 & 7 & 8 \\ 9 & 10 & 11 & 12 \\ 13 & 14 & 15 & 16 \end{pmatrix}$
 
 *Zeile 1 gewählt*
@@ -816,14 +877,15 @@ $A = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 5 & 6 & 7 & 8 \\ 9 & 10 & 11 & 12 \\ 13 & 
 $M_{11} = \begin{vmatrix} 6 & 7 & 8 \\ 10 & 11 & 12 \\ 14 & 15 & 16 \end{vmatrix},\quad det(M_{11})=0$
 
 $M_{12} = \begin{vmatrix} 5 & 7 & 8 \\ 9 & 11 & 12 \\ 13 & 15 & 16 \end{vmatrix},\quad det(M_{12})=0$
-  
+
 $M_{13} = \begin{vmatrix} 5 & 6 & 8 \\ 9 & 10 & 12 \\ 13 & 14 & 16 \end{vmatrix},\quad det(M_{13})=0$
-  
+
 $M_{14} = \begin{vmatrix} 5 & 6 & 7 \\ 9 & 10 & 11 \\ 13 & 14 & 15 \end{vmatrix},\quad det(M_{14})=0$
 
 $\text{det}(A) = +1 \cdot 0 - 2 \cdot 0 + 3 \cdot 0 - 4 \cdot 0 = 0$
 
 ## Rang einer Matrix 8.3
+
 - Gibt die maximale Anzahl linear unabhängiger Spalten (oder Zeilen) einer Matrix an
 - Ist ein Maß für die "Dimension" des von den Spalten (oder Zeilen) aufgespannten Vektorraums
 - Interpretationen bzw. Möglichkeiten, den Rang festzustellen: Anzahl der Pivot-Elemente oder maximale Anzahl linear unabhängiger Spalten oder Zeilen
@@ -843,30 +905,4 @@ $\begin{pmatrix} 1 & 2 & 3 \\ 0 & -3 & -6 \\ 0 & 0 & 0 \\ \end{pmatrix}$
 Es gibt zwei nicht-null Zeilen, was bedeutet, dass der Rang der Matrix 2 ist. Heißt, es gibt zwei linear unabhängige Zeilen oder Spalten. Die dritte Zeile (und auch die dritte Spalte) kann aus den anderen durch Linearkombinationen hergeleitet werden.
 
 **Rechenregeln**:
-![Rechenregeln Rang.png](./Anhang/Rechenregeln Rang.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Rechenregeln Rang.png](./Anhang/Rechenregeln%20Rang.png)
