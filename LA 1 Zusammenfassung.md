@@ -6,6 +6,8 @@
 
 (In)Konsistens [LGS]
 
+Skalarpr. ⟨x,x⟩
+
 # Verknüpfungen und Aussagen 1
 
 [[TI 1 Zusammenfassung#Logik und Beweistechniken 1]]
@@ -183,6 +185,7 @@ $\phi=arctan_2(b,a)$
 **Merke**: Auf den jeweiligen Quadranten achten!
 
 **Geometrische Darstellung (Argand-Diagramm)**: Eine komplexe Zahl kann als Punkt oder Vektor in der komplexen Ebene angesehen werden
+
 ![Argand-Diagramm 2.png](./Anhang/Argand-Diagramm%202.png)
 ![Argand-Diagramm.png](./Anhang/Argand-Diagramm.png)
 
@@ -889,8 +892,13 @@ $\text{det}(A) = +1 \cdot 0 - 2 \cdot 0 + 3 \cdot 0 - 4 \cdot 0 = 0$
 - Gibt die maximale Anzahl linear unabhängiger Spalten (oder Zeilen) einer Matrix an
 - Ist ein Maß für die "Dimension" des von den Spalten (oder Zeilen) aufgespannten Vektorraums
 - Interpretationen bzw. Möglichkeiten, den Rang festzustellen: Anzahl der Pivot-Elemente oder maximale Anzahl linear unabhängiger Spalten oder Zeilen
-- Lineare Unabhängigkeit: Wenn keine Zeile/Spalte als lineare Kombination der anderen Zeilen/Spalten ausgedrückt werden kann
+- Lineare Unabhängigkeit: Wenn kein Vektor als lineare Kombination der anderen Vektoren ausgedrückt werden kann. Bedeutete so viel wie: Egal wie man die Zeilen/Spalten umformt, also multipliziert oder miteinandert addiert, der gewollte Vektor lässt sich nicht bilden
+- Vektoren, die nur $0$ beinhalten sind nicht linear unabhängig, da jeder Vektor mit $0$ multipliziert einen Nullvektor bildet
 
+**Rechenregeln**:
+![Rechenregeln Rang.png](./Anhang/Rechenregeln%20Rang.png)
+
+#### Beispiel
 $A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \\ \end{pmatrix}$
 
 $Z_2=Z_2-Z_1 \times 4$
@@ -902,7 +910,135 @@ $Z_3=Z_3-Z_2 \times 2$
 
 $\begin{pmatrix} 1 & 2 & 3 \\ 0 & -3 & -6 \\ 0 & 0 & 0 \\ \end{pmatrix}$
 
-Es gibt zwei nicht-null Zeilen, was bedeutet, dass der Rang der Matrix 2 ist. Heißt, es gibt zwei linear unabhängige Zeilen oder Spalten. Die dritte Zeile (und auch die dritte Spalte) kann aus den anderen durch Linearkombinationen hergeleitet werden.
+Zeile $Z_1$ und $Z_2$ sind linear unabhängig, weshalb der Rang der Matrix $rg(A)=2$ ist. Die dritte Zeile (und auch die dritte Spalte) kann aus den anderen durch Linearkombinationen hergeleitet werden.
 
-**Rechenregeln**:
-![Rechenregeln Rang.png](./Anhang/Rechenregeln%20Rang.png)
+## Norm von Vektoren und Matrizen 8.4
+Ein Norm ist eine Abbildung $||\ ||: M→\mathbb{R}^≥$ mit den Eigenschaften:
+$||x||≥0$
+$||x||= 0\text{ nur für }x= 0$
+$||α·x||= |α|·||x||\text{ für alle }α∈\mathbb{C}$
+$||x+ y||≤||x||+ ||y||\text{ Dreiecksungleichung}$
+
+**Manhattan-Norm (Cityblock-Norm oder Betragsummennorm)**: Summe der Beträge der Komponenten eines Vektors
+$||x||_1 = \sum_{i=1}^n |x_i|$
+
+**Euklidische Norm**: Quadratwurzel der Summe der Quadrate der Komponenten
+$||x||_2 = \sqrt{|x_1|^2 + |x_2|^2 + ... + |x_n|^2}$
+
+**Höldernorm**: Die Summe der Beträge der Komponenten eines Vektors
+$||x||_p = (|x_1|^p + |x_2|^p + ... + |x_n|^p)^{\frac{1}{p}}$
+
+**Tschebyschew-Norm (Maximumnorm)**: Der größte Betrag der Komponenten eines Vektors
+$||x||_\infty = \underset{1 \leq i \leq n}{max} |x_i|$
+
+**Skalarprodukt induziert**: $||x||= \sqrt{⟨x,x⟩}$
+
+**Kreise der verschiedenen Normen**:
+
+![P-Norm.png](./Anhang/P-Norm.png)
+
+*Der Tschebyschew-Norm Kreis ist ein Quadrat.*
+
+Ein Rechner für Normen: [desmos.com/calculator/e3g0rtg2vm](https://www.desmos.com/calculator/e3g0rtg2vm)
+
+### Beispiel
+$v_1 = \begin{pmatrix} 5 \\ 3 \\ 4 + i \end{pmatrix},\quad v_2 = \begin{pmatrix} 1 \\ 2 \\ i \end{pmatrix},\quad v_3 = \begin{pmatrix} 1 \\ 8 \\ 2 \end{pmatrix}$
+
+**Manhattan-Norm**:
+$\|v_1\|_1 = |5| + |3| + |4+i| = 5 + 3 + \sqrt{4^2 + 1^2} = 5 + 3 + \sqrt{17}$
+$\|v_2\|_1 = |1| + |2| + |i| = 1 + 2 + 1 = 4$
+$\|v_3\|_1 = |1| + |8| + |2| = 1 + 8 + 2 = 11$
+
+**Euklidische Norm**:
+$\|v_1\|_2 = \sqrt{5^2 + 3^2 + |4+i|^2} = \sqrt{25 + 9 + (4^2 + 1^2)} = \sqrt{25 + 9 + 17} = \sqrt{51}$
+$\|v_2\|_2 = \sqrt{1^2 + 2^2 + |i|^2} = \sqrt{1 + 4 + 1} = \sqrt{6}$
+$\|v_3\|_2 = \sqrt{1^2 + 8^2 + 2^2} = \sqrt{1 + 64 + 4} = \sqrt{69}$
+
+**Tschebyschew-Norm**:
+$\|v_1\|_\infty = \max(|5|, |3|, |4+i|) = \max(5, 3, \sqrt{4^2 + 1^2}) = \max(5, 3, \sqrt{17}) = 5$
+$\|v_2\|_\infty = \max(|1|, |2|, |i|) = \max(1, 2, 1) = 2$
+$\|v_3\|_\infty = \max(|1|, |8|, |2|) = \max(1, 8, 2) = 8$
+
+[Exkurs Vektoren und Ebenen 8.5 aus zeitlichen Gründen übersprungen]
+
+# Algebraische Strukturen 9
+## Gruppe 9.1
+- Verknüpfung: Eine Regel, die zwei Elemente einer Menge miteinander kombiniert und ein neues Element derselben oder einer anderen Menge erzeugt
+- Genauer gesagt eine eindeutige binäre Abbildung der Art $\circ: G×G→G; (x,y) \mapsto x\circ y$
+- Eine Gruppe ist abgeschlossen, assoziativ und besitzt ein neutrales Element und ein inverses Element
+- Eine Abelsche Gruppe ist zudem kommutativ bzw. abelsch
+
+### Eigeschaften
+**Eine Verknüpfung $\circ$ ist…**
+- **abgeschlossen**, wenn für alle $a, b \in G$ auch das Ergebnis $a \circ b$ wieder in $G$ liegt
+- **assoziativ**, wenn für alle $a, b, c \in G$ gilt: $(a \circ b) \circ c = a \circ (b \circ c)$ gilt $(a \circ b) \circ c = a \circ (b \circ c)$
+- **kommutativ/abelsch**, wenn für alle $a, b \in G$ gilt: $a \circ b = b \circ a$
+
+**Ein Element…**
+- $e \in G$ besitzt ein **neutrales Element** bzgl. $\circ$, wenn für alle $a \in G$ gilt: $a \circ e = e \circ a = a$
+- $a \in G$ besitzt ein **inverses Element** bzgl. $\circ$, wenn es ein $b \in G$ gibt, sodass gilt: $a \circ b = b \circ a = e$
+
+Ein neutrales Element verändert das Ergebnis bei bestimmten Operation nicht.
+Bsp. 1: Das additive neutrale Element von $3$ ist $0$: $\quad 3+0=3$
+Bsp. 2: Die multiplikative Inverse von $3$ ist $1$: $\quad 3 \times 1=1$
+
+Ein inverses Element kann eine gegebene Operation rückgängig machen.
+Bsp. 1: Die additive Inverse von $5$ ist $-5$: $\quad 5+1=6; \quad 6+(-5)=1$
+Bsp. 2: Die multiplikative Inverse von $5$ ist $\frac{1}{5}$: $\quad 5 \times 2=10; \quad 10 \times \frac{1}{5}=2$
+
+[Fehlen Erklärungen und n=e a=x']
+
+### Beispiel
+$x \circ y= x+y+1,\quad x,y∈\mathbb{R}$
+
+**Abgeschlossenheit**: Ja, weil die Summe von zwei reellen Zahlen und $1$ immer eine reelle Zahl ergibt
+
+**Assoziativität**: Ja, weil…
+- Linke Seite: $(x \circ y) \circ z = (x + y + 1) \circ z = (x + y + 1) + z + 1 = x + y + z + 2.$
+- Rechte Seite: $x \circ (y \circ z) = x \circ (y + z + 1) = x + (y + z + 1) + 1 = x + y + z + 2.$
+
+**Neutrales Element**: Es gibt $n = -1$
+$x \circ n = x + n + 1 = x$
+$n + 1 = 0 \quad \Rightarrow \quad n = -1$
+$x \circ -1 = x - 1 + 1 = x$
+
+**Inverses Element**: Es gibt $x'=−2−x$
+$x \circ y = n$
+$x \circ y = x + y + 1 = -1 \quad \Rightarrow \quad y = -x - 2$
+$y \circ x = y + x + 1 = -1 \quad \Rightarrow \quad y = -x - 2.$
+
+## Körper 9.2
+- Ein Körper $K$ ist eine Menge mit zwei Verknüpfungen Addition und Multiplikation, die jeweils Elementen $x,y∈K$ ein Element $a= x+ y; a∈K$ und $b= x·y; b∈K$ zuordnen
+- Die Elemente eines Körpers heißen Skalare
+- Zu Körpern gehören rationalen, reellen und komplexen Zahlen
+- Natürliche Zahlen sind keine Körper da es keine Inversen gibt und ganze Zahlen, weil es kein multiplikatives Inverses gibt
+
+### Eingeschaften
+**Elemente $x,y,z ∈K$ bilden eine abelsche Gruppe (Addition):**
+- Assoziativität: $(x + y)  + z = x + (y + z)$
+- Kommutativität: $x + y= y + x$
+- Es gibt ein Nullelement $o$: $∃o∈K : o + x= x$
+- Es gibt ein inverses Element $-x$: $∃−x∈K : x + (−x) = o$
+
+**Elemente $x,y,z ∈K\backslash \{o\}$ bilden eine abelsche Gruppe (Multiplikation):**
+- Assoziativität: $(x \times y)  \times z = x \times (y \times z)$
+- Kommutativität: $x \times y= y \times x$
+- Es gibt ein Einselement $e$: $∃e∈K : e \times x= x$
+- Es gibt ein inverses Element $x^{-1}$: $∃x^{-1}∈K : x \times x^{-1} = e$
+
+**Addition und Multiplikation sind durch das Distributivgesetz miteinander verbunden**
+- Linksseitige Distributivität: $x ·(y+ z) = x·y+ x·z$
+
+**Null- und Einselement sind verschieden**:
+- Rechtsseitige Distributivität: $(x+ y)·z = x·z+ y·z$
+
+[Nullelement vs. neutrales Element]
+
+### Ring
+- Körper ohne Kommutativität und Existenz eines inversen und neutralen Elements bei der Multiplikation
+- Mit Kommutativität spricht man von einem kommutativen Ring
+- Bei einem Körper kann man auch von einem kommutativen Ring sprechen, in dem die von $o$ verschiedenen Elemente bezüglich der Multiplikation eine Gruppe bilden
+- Ganzen Zahlen und Polynome sind kommutative Ringe
+- $n$-reihigen quadratischen Matrizen bilden einen nicht-kommutativen Ring, den sog. Matrixring
+
+## Vektorraum 9.3
